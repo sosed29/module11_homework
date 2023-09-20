@@ -1,0 +1,7 @@
+let myMap = new Map();
+
+myMap.set('Ключ — Х');
+myMap.set('значение — Y');
+
+
+    console.log(myMap.keys());

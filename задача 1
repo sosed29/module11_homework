@@ -1,0 +1,11 @@
+let arr = prompt("Пожалуйста введите число");
+let res =+ arr;
+if ((typeof(arr) == 'number')  ||  (!isNaN(arr))){
+    if (arr % 2 === 0) {
+        console.log("Это число чётное");
+    } else {
+        console.log("Это число нечётное");
+    }
+} else {
+    console.log("Упс, кажется, вы ошиблись");
+}
